@@ -12,5 +12,6 @@ int main(void)
 	printf("%zu\n",sizeof(long int));
 	printf("%zu\n",sizeof(long long int));
 	printf("%zu\n",sizeof(float));
+	
 	return (0);
 }

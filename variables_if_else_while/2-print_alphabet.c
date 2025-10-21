@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-  char az;
+  char a = 'a';
 
-  for (az = 'a'; az <= 'z'; az++)
+  while (az <= 'z')
     {
-      putchar(az);
+      putchar(az); az++;
     }
     putchar('\n'); // saut de ligne
     return 0;

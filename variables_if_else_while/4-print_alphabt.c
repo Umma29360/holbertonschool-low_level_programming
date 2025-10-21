@@ -14,7 +14,7 @@ int main(void)
  int char i;
 
  i = a; 
-  while (i <= 'z' && i != 'q''e')
+  while (i <= 'z' && i != 'q' && i != 'e')
     {
       putchar(i);
       i++;

@@ -17,3 +17,4 @@ int main(void)
     }
     putchar('\n'); // saut de ligne
     return 0;
+}

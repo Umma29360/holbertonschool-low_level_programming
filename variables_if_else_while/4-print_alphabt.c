@@ -1,6 +1,4 @@
-
-
-65;6800;1c#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**                                                                                           

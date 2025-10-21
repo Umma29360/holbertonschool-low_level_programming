@@ -4,8 +4,8 @@
 /**
  * main - Entry point of the program
  *
- * Description: Prints the alphabet in lowercase letters
- *              followed by a new line.
+ * Description: Prints all single-digit numbers of base 10,
+ *              starting from 0, followed by a new line.
  *
  * Return: Always 0 (Success)
  */
@@ -17,5 +17,5 @@ int main(void)
     {
     printf("%d\n", i);
     }
-  return (i);
+  return (0);
 }

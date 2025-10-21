@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stlib.h>
+
 /**
  * main - Entry point of the program
  *
@@ -15,6 +17,6 @@ int main(void)
     {
       putchar(az); az++;
     }
-    putchar('\n'); // saut de ligne
-    return 0;
+    putchar('\n');
+    return (0);
 }

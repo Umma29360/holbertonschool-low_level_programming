@@ -1,4 +1,6 @@
-#include <stdio.h>
+
+
+65;6800;1c#include <stdio.h>
 #include <stdlib.h>
 
 /**                                                                                           
@@ -11,11 +13,12 @@
  */
 int main(void)
 {
- int char i;
+ char i;
 
- i = a; 
-  while (i <= 'z' && i != 'q' && i != 'e')
+ i = 'a'; 
+  while (i <= 'z')
     {
+      if (i != 'e' && i != 'q')
       putchar(i);
       i++;
     }
